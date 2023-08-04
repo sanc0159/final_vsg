@@ -1,4 +1,42 @@
-html {
-    font-family: 'Niramit', sans-serif;
+
+h1 {
     font-family: 'Rubik', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Niramit', sans-serif;
+    font-weight: 200;
+}
+
+a {
+    font-family: 'Rubik', sans-serif !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+}
+
+:root {
+    --primary: #E16D69;
+    --success: #C4D44B;
+    --warning: #E8BC56;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border: none;
+}
+
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: var(--success) !important;
+}
+
+.bg-warning {
+    background-color: var(--warning);
 }
