@@ -26,24 +26,24 @@
         <header>
             <!-- Nav -->
             <nav>
-                <ul class="nav nav-pills nav-fill">
-                    <li class="nav-item">
-                        <a class="bg-warning nav-link active" aria-current="page" href="home.html">HOME</a>
+                <ul class="nav nav-pills nav-justified grid gap-2">
+                    <li class="nav-item p-1 g-col-2">
+                        <a class="nav-link bg-warning text-light active" aria-current="page" href="home.html">HOME</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="bg-warning nav-link" href="projects.html">PROJECTS</a>
+                    <li class="nav-item p-1 g-col-2">
+                        <a class="nav-link bg-warning text-light" href="projects.html">PROJECTS</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="bg-warning nav-link" href="contact.html">CONTACT</a>
+                    <li class="nav-item p-1 g-col-2">
+                        <a class="nav-link bg-warning text-light" href="contact.html">CONTACT</a>
                     </li>
                 </ul>
             </nav>
         </header>
         <main>
             <!--Profile img-bg + h1 + p / Bootstrap-->
-            <div class="card text-bg-dark border-0 rounded-0 text-center">
+            <div class="card text-bg-dark border-0 rounded-0 text-center position-relative">
                 <img src="images/veronica-md.png" class="opacity-50 card-img" alt="photograph">
-                <div class="card-img-overlay">
+                <div class="card-img-overlay position-absolute top-50 start-50 translate-middle">
                     <h1 class="card-title">Verónica</h1>
                     <p class="card-text">Colombian curious soul, currently based in Ottawa, ON, Canada broading my studies on media design. I
                         have acquired knowledge in general design, branding, product innovation, and being able to identify
@@ -56,9 +56,9 @@
             </div>
 
             <!--Projects img-bg + h2 + p / Bootstrap-->
-            <div class="card text-bg-dark border-0 rounded-0 text-center">
+            <div class="card text-bg-dark border-0 rounded-0 text-center position-relative">
                 <img src="images/photo-md.png" class="opacity-50 card-img" alt="photograph">
-                <div class="card-img-overlay">
+                <div class="card-img-overlay position-absolute top-50 start-50 translate-middle">
                     <h2 class="card-title">Take a look!</h2>
                     <p class="card-text">This is what I do.</p>
                     <a class="btn btn-primary"
@@ -69,7 +69,7 @@
             </div>
 
             <!-- h2 + p + link to contact-->
-            <div class="contact">
+            <div class="contact text-center">
                 <h2>Want to create together?</h2>
                 <p>Send a direct message with your idea.</p>
                 <a class="btn btn-primary"
@@ -78,7 +78,7 @@
                 </a>
             </div>
             
-            <div class="socials">
+            <div class="socials d-flex justify-content-center">
                 <!--Images link to external pages-->
                 <a href="https://www.linkedin.com/in/veronicasag/">
                     <img src="images/linkedin-sm.png">
@@ -91,8 +91,8 @@
                 </a>
             </div>
             <footer>
-                <div class="copy">
-                    &copy; Verónica Sánchez G., 2023
+                <div class="copy flex bg-light text-primary text-center">
+                     <p>&copy;Verónica Sánchez G., 2023</p>
                 </div>
             </footer>
         </main>

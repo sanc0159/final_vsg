@@ -26,15 +26,15 @@
         <header>
             <!-- Nav -->
             <nav>
-                <ul class="nav nav-pills nav-fill">
-                    <li class="nav-item">
-                        <a class="nav-link" href="home.html">HOME</a>
+                <ul class="nav nav-pills nav-justified grid gap-2">
+                    <li class="nav-item p-1 g-col-2">
+                        <a class="nav-link bg-warning text-light active" aria-current="page" href="home.html">HOME</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="projects.html">PROJECTS</a>
+                    <li class="nav-item p-1 g-col-2">
+                        <a class="nav-link bg-warning text-light" href="projects.html">PROJECTS</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="contact.html">CONTACT</a>
+                    <li class="nav-item p-1 g-col-2">
+                        <a class="nav-link bg-warning text-light" href="contact.html">CONTACT</a>
                     </li>
                 </ul>
             </nav>
@@ -44,39 +44,42 @@
                 <h1>Lets work!</h1>
                 <p>If you love to co-create or have questions, please reach out through a direct message or email.</p>
                 <!--Form for message-->
-                <form action="#" method="get">
+                <form class="bg-light p-2" action="#" method="get">
 
-                    <div class="name">
+                    <div class="name mb-2">
                         <label for="fullname">Name</label>
                         <br>
-                        <input type="text" class="inputs" id="name" name="name">
+                        <input type="text" class="inputs border-0 bg-secondary-subtle" id="name" name="name">
                     </div>
 
-                    <div class="email">
+                    <div class="email mb-2">
                         <label for="email">Email</label>
                         <br>
-                        <input type="email" class="inputs" id="email" name="email">
+                        <input type="email" class="inputs border-0 bg-secondary-subtle" id="email" name="email">
                     </div>
 
-                    <div class="subject">
+                    <div class="subject mb-2">
                         <label for="subject">Subject</label>
                         <br>
-                        <input type="subject" class="inputs" id="subject" name="subject">
+                        <input type="subject" class="inputs border-0 bg-secondary-subtle" id="subject" name="subject">
                     </div>
 
                     <div class="message">
                         <label for="message">Message</label>
                         <br>
-                        <textarea name="message" class="inputs" id="message"></textarea>
+                        <textarea name="message" class="inputs border-0 bg-secondary-subtle" id="message"></textarea>
                     </div>
 
-                    <a class="btn btn-primary" href="mailto:veronicasag26@gmail.com">
-                        Send>
-                    </a>
+                    <div class="send text-center">
+                        <a class="btn btn-primary" href="mailto:veronicasag26@gmail.com">
+                            Send>
+                        </a>
+                    </div>
 
                 </form>
             </div>
-            <div class="socials">
+            
+            <div class="socials d-flex justify-content-center">
                 <!--Images link to external pages-->
                 <a href="https://www.linkedin.com/in/veronicasag/">
                     <img src="images/linkedin-sm.png">
@@ -89,8 +92,8 @@
                 </a>
             </div>
             <footer>
-                <div class="copy">
-                    &copy; Verónica Sánchez G., 2023
+                <div class="copy flex bg-light text-primary text-center">
+                     <p>&copy;Verónica Sánchez G., 2023</p>
                 </div>
             </footer>
         </main>

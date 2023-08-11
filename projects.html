@@ -26,15 +26,15 @@
         <header>
             <!-- Nav -->
             <nav>
-                <ul class="nav nav-pills nav-fill">
-                    <li class="nav-item">
-                        <a class="nav-link" href="home.html">HOME</a>
+                <ul class="nav nav-pills nav-justified grid gap-2">
+                    <li class="nav-item p-1 g-col-2">
+                        <a class="nav-link bg-warning text-light active" aria-current="page" href="home.html">HOME</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="projects.html">PROJECTS</a>
+                    <li class="nav-item p-1 g-col-2">
+                        <a class="nav-link bg-warning text-light" href="projects.html">PROJECTS</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    <li class="nav-item p-1 g-col-2">
+                        <a class="nav-link bg-warning text-light" href="contact.html">CONTACT</a>
                     </li>
                 </ul>
             </nav>
@@ -43,9 +43,9 @@
             <h1>Projects</h1>
             <!--Projects display-->
 
-            <div class="card text-bg-dark border-0 rounded-0 text-center">
-                <img src="images/photo-md.png" class="opacity-50 card-img" alt="photograph">
-                <div class="card-img-overlay">
+            <div class="card text-bg-dark border-0 rounded-0 text-center position-relative">
+                <img src="images/photo-md.png" class="opacity-50 rounded-0 card-img" alt="photograph">
+                <div class="card-img-overlay position-absolute top-50 start-50 translate-middle">
                     <h2 class="card-title">Photography</h2>
                     <p class="card-text">Over the last year, I've learned to love taking photos of the beauty that is
                         all around me.
@@ -56,9 +56,9 @@
                     </a>
                 </div>
             </div>
-            <div class="card text-bg-dark border-0 rounded-0 text-center">
-                <img src="images/brand-md.png" class="opacity-50 card-img" alt="graphic design">
-                <div class="card-img-overlay">
+            <div class="card text-bg-dark border-0 rounded-0 text-center position-relative">
+                <img src="images/brand-md.png" class="opacity-50 rounded-0 card-img" alt="graphic design">
+                <div class="card-img-overlay position-absolute top-50 start-50 translate-middle">
                     <h2 class="card-title">Graphic design</h2>
                     <p class="card-text">Check out some of my branding and graphic projects. I enjoy new challenges and researching each of them to the core.</p>
                     <a class="btn btn-primary"
@@ -67,9 +67,9 @@
                     </a>
                 </div>
             </div>
-            <div class="card text-bg-dark border-0 rounded-0 text-center">
-                <img src="images/product-md.png" class="opacity-50 card-img" alt="product design">
-                <div class="card-img-overlay">
+            <div class="card text-bg-dark border-0 rounded-0 text-center position-relative">
+                <img src="images/product-md.png" class="opacity-50 rounded-0 card-img" alt="product design">
+                <div class="card-img-overlay position-absolute top-50 start-50 translate-middle">
                     <h2 class="card-title">Product design</h2>
                     <p class="card-text">I've been part of many work groups with different design objectives and goals. These are some of my favorites and the story behind them.</p>
                     <a class="btn btn-primary"
@@ -78,9 +78,9 @@
                     </a>
                 </div>
             </div>
-            <div class="card text-bg-dark border-0 rounded-0 text-center">
-                <img src="images/illus-md.png" class="opacity-50 card-img" alt="illustration">
-                <div class="card-img-overlay">
+            <div class="card text-bg-dark border-0 rounded-0 text-center position-relative">
+                <img src="images/illus-md.png" class="opacity-50 rounded-0 card-img" alt="illustration">
+                <div class="card-img-overlay position-absolute top-50 start-50 translate-middle">
                     <h2 class="card-title">Illustration</h2>
                     <p class="card-text">These are some of my digital art pieces, I enjoy learning new software that allows my creativity to grow and experience.</p>
                     <a class="btn btn-primary"
@@ -92,8 +92,7 @@
 
 
 
-            <div class="contact">
-                <!--H1 + p + link to contact-->
+            <div class="contact text-center">
                 <h2>Want to create together?</h2>
                 <p>Send a direct message with your idea.</p>
                 <a class="btn btn-primary"
@@ -101,7 +100,8 @@
                     Contact>
                 </a>
             </div>
-            <div class="socials">
+            
+            <div class="socials d-flex justify-content-center">
                 <!--Images link to external pages-->
                 <a href="https://www.linkedin.com/in/veronicasag/">
                     <img src="images/linkedin-sm.png">
@@ -114,8 +114,8 @@
                 </a>
             </div>
             <footer>
-                <div class="copy">
-                    &copy; Verónica Sánchez G., 2023
+                <div class="copy flex bg-light text-primary text-center">
+                     <p>&copy;Verónica Sánchez G., 2023</p>
                 </div>
             </footer>
         </main>
